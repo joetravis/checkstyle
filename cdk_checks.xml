@@ -94,7 +94,9 @@
         <!--<module name="FileLength">-->
         <!--<property name="max" value="300"/>-->
         <!--</module>-->
-        <module name="LineLength"/>
+        <module name="LineLength">
+            <property name="max" value="120" />
+        </module>
         <module name="MethodLength">
             <property name="countEmpty" value="false"/>
             <property name="max" value="40"/>
